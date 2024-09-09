@@ -13,3 +13,5 @@ jobs:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: ae1ccc0f-d316-4686-95af-a49089b1e2b8
+          static_analysis_only: true
+          analysis_timout_minutes: true
